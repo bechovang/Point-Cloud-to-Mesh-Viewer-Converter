@@ -1,12 +1,12 @@
 @echo off
-echo === Tạo môi trường ảo 'venv' ===
+echo === Tao moi truong ao 'venv' ===
 python -m venv venv
 
-echo === Kích hoạt venv và cài thư viện ===
+echo === Kich hoat venv va cai thu vien ===
 call venv\Scripts\activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
 echo.
-echo === Thiết lập xong. Nhấn phím bất kỳ để thoát ===
+echo === Thiet lap xong. Nhan phim bat ky de thoat ===
 pause

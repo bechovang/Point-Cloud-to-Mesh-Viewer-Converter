@@ -1,8 +1,8 @@
 @echo off
-echo === Kích hoạt môi trường ảo và chạy ứng dụng ===
+echo === Kich hoat moi truong ao va chay ung dung ===
 call venvScriptsactivate
 python main.py
 
 echo.
-echo === Đã hoàn tất. Nhấn phím bất kỳ để thoát ===
+echo === Da hoan tat. Nhan phim bat ky de thoat ===
 pause
